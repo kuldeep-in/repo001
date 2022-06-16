@@ -30,7 +30,7 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-              az storage blob upload-batch --destination 'publishtest' --account-name 'stkuldeep001' --destination-path '/' --source '.' --account-key 'Apvvjkhh2F/waw3PuLe+uYEaI5rG8zVsy8f6jEfjpq9hHOEbJ6Y8xhfH+e+MIoDP96aMBBt0QN8LNMcD1KVnWA=='
+              az storage blob upload-batch --destination 'publishtest' --account-name 'stkuldeep001' --destination-path '/' --source '.' --account-key ''
        #      az storage blob upload -c 'publishtest' -f './published/KuldeepSingh_Resume.pdf' -n 'resume/KuldeepSingh_Resume.pdf' --account-name 'stkuldeep001' --account-key ${{ secrets.STORAGE_Key }}
 
       # Runs a single command using the runners shell
